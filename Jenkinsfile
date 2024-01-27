@@ -5,8 +5,5 @@ pipeline {
             steps { 
                echo 'This is a minimal pipeline.' 
             }
-            steps {
-               mkdir /tmp/pipeline
-           }
     }
 }
